@@ -14,6 +14,8 @@ public class SimpleCalculator {
 		System.out.println("2.Substraction");
 		System.out.println("3.Multiplication");
 		System.out.println("4.Division");
+		System.out.println("5.factorial");
+		
 
 	}
 
@@ -22,7 +24,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a / b;
 
@@ -34,7 +36,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a * b;
 
@@ -46,7 +48,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a - b;
 
@@ -58,7 +60,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a + b;
 
@@ -91,6 +93,17 @@ public class SimpleCalculator {
 			score = calc.division();
 			System.out.println(score);
 			break;
+		case 5:{
+			System.out.println("enter the number");
+			int num1 = scan.nextInt();
+			int a = 1;
+			for(int i = 1; i <= num1; i++){
+				a = a*i;
+			}
+			System.out.println("the factorial is" + " " + a);
+			break;
+		}
+
 		default:
 			System.out.println("Wrong choice");
 			break;
