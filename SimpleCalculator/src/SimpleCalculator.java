@@ -22,7 +22,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a / b;
 
@@ -34,7 +34,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a * b;
 
@@ -46,7 +46,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a - b;
 
@@ -58,7 +58,7 @@ public class SimpleCalculator {
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		double val = a + b;
 
